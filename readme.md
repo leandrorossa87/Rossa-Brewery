@@ -36,4 +36,4 @@ para el footer en toda la pagina se utilizara
 
 **__Logo__**
 Para el logo se utlizara la siguiente imagen
-![este es el logo](../WhatsApp%20Image%202022-06-23%20at%2010.07.19%20AM.jpeg)
+![este es el logo](./logo.jpeg)
