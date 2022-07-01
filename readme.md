@@ -24,6 +24,10 @@ Esta pagina esta orientada para un publico especifico, no cuenta con un limite d
 La fuente a utilizar en la pagina principal es *ULTRA* (https://fonts.google.com/specimen/Ultra?preview.text=BREWERY&preview.text_type=custom#standard-styles), para los menus de header y las lestras de interaccion en el main, y cada seccion del e-commerce tendra otra fuente. En la parte de equipos de cerveza, comercilizacion de cerveza en barril y alquileres de equipos se mantendra la misma fuente. En la seccion de camaras, mobiliario y comercilizacion de insumos gastronomicos la fuente a usar sera *ACTOR* (https://fonts.google.com/specimen/Actor?query=old&preview.text=M&preview.text_type=custom#standard-styles).
 Para el footer en toda la pagina se utilizara es *UBUNTU* (https://fonts.google.com/specimen/Ubuntu?preview.text=BREWERY&preview.text_type=custom)
 
+**Paleta de Colores**
+La paleta de colores a utilizar para el armado de la pagina:
+https://paletasdecolores.com/paleta-de-colores-2584/.
+
 **__Logo__**
 Para el logo se utlizara la siguiente imagen
 ![este es el logo](./logo.jpeg)
