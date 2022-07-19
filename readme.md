@@ -26,7 +26,7 @@ Para el footer en toda la pagina se utilizara es *UBUNTU* (https://fonts.google.
 
 **Paleta de Colores**
 La paleta de colores a utilizar para el armado de la pagina:
-https://paletasdecolores.com/paleta-de-colores-2584/.
+![esta es la paleta de colores](./brewery.png)
 
 **__Logo__**
 Para el logo se utlizara la siguiente imagen
