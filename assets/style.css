@@ -1,0 +1,266 @@
+@media (max-he)
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+* {
+    margin: 0px;
+}
+
+header {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+   }
+
+.iconsHeader {
+
+    background-color: #193E76;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.styleButton {
+    margin: 5px;
+}
+
+.home {
+    margin-left: 29px;
+}
+
+.secciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.ec {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.ec img {
+    position: relative;
+    border-radius: 10px;
+}
+
+.ec a {
+    position: absolute;
+    margin-top: 150px;
+    font-family: 'Ultra', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.ep {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.ep img {
+    position: relative;
+    border-radius: 10px;
+}
+
+.ep a {
+    position: absolute;
+    margin-top: 180px;
+    width: 172px;
+    height: 32px;
+    font-family: 'Ultra', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cf {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.cf img {
+    position: relative;
+    border-radius: 10px;
+}
+
+.cf a {
+    position: absolute;
+    margin-top: 200px;
+    font-family: 'Ultra', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.eg{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.eg img {
+    position: relative;
+    border-radius: 10px;
+}
+
+.eg a {
+    position: absolute;
+    margin-top: 225px;
+    font-family: 'Ultra', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+ 
+h2 {
+    font-family: 'Ultra', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #0a131e;
+    margin-top: 15px;
+    margin-bottom: 4px;
+    margin-left: 45px;
+ }
+
+ hr {
+   
+    border-color: #0a131e;
+    
+ }
+
+ .lineaproductos{
+    margin-bottom: 15px;
+    margin-left: 45px;
+ }
+ .carrusel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imgProduct{
+    display: flex;
+    flex-direction: row;
+}
+
+.imgf{
+    position: relative;
+}
+
+.imgp {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.buttonEnd {
+    background-color: #a2c4e0;
+    border-radius: 15px;
+    border-color: #a2c4e0;
+    outline: none;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #193E76;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h3{
+    margin-top: 10px;
+    font-family: 'Ultra', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #0a131e;
+}
+
+.mailsend{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.barrafooter {
+    
+    background-color: #0a131e;
+}
+
+ .whatsapp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+ }
+
+ h5{
+    font-family: 'Ultra', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 22px;
+    color: #0a131e;
+ }
+
+ iframe{
+    margin-bottom: 15px;
+    border-radius: 10px;
+ }
+
+ .endPage{
+    display: flex;
+    flex-direction: row;
+ }
+ 
+ .logoend{
+    margin-left: 150px;
+ }
+
+.copy{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
