@@ -175,6 +175,14 @@ h2 {
     align-items: center;
 }
 
+button{
+    padding: 0;
+    border: none; 
+    background: none;
+
+
+}
+
 .imgProduct{
     display: flex;
     flex-direction: row;
