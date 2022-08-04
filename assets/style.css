@@ -43,6 +43,10 @@ header {
     margin-top: 15px;
 }
 
+a{
+    text-decoration: none;
+}
+
 .ec {
 display: flex;
 flex-direction: column;
