@@ -59,6 +59,10 @@ align-items: center;
 
 }
 
+:root{
+    --color: #fbfef5;
+}
+
 .ec img {
     position: relative;
     border-radius: 10px;
@@ -67,17 +71,10 @@ align-items: center;
 
 .ec a {
     position: absolute;
-    margin-top: 35%;
-    width: 100%;
-    height: auto;
-    justify-content: center;
     font-family: 'Ultra', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 22px;
-    display: flex;
-    color: #FFFFFF;
+    margin-top: 35%;
+    font-size: 5vw;
+    color:var(--color);
 }
 
 .ep {
@@ -90,22 +87,21 @@ align-items: center;
 .ep img {
     position: relative;
     border-radius: 10px;
+    width: 50%;
+    height: auto;
 }
 
 .ep a {
     position: absolute;
-    margin-top: 180px;
-    width: 172px;
-    height: 32px;
+    margin-top: 45%;
+    width: 40%;
+    height: auto;
+    font-size: 5vw;
     font-family: 'Ultra', serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 22px;
     display: flex;
-    align-items: center;
     text-align: center;
-    color: #FFFFFF;
+    color:var(--color);
 }
 
 .cf {
@@ -117,20 +113,21 @@ align-items: center;
 .cf img {
     position: relative;
     border-radius: 10px;
+    width: 70%;
+    height: auto;
 }
 
 .cf a {
     position: absolute;
-    margin-top: 200px;
+    margin-top: 48%;
     font-family: 'Ultra', serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
+    font-size: 4vw;
     line-height: 22px;
     display: flex;
     align-items: center;
     text-align: center;
-    color: #FFFFFF;
+    color:var(--color);
 }
 
 .eg{
@@ -155,9 +152,10 @@ align-items: center;
     display: flex;
     align-items: center;
     text-align: center;
-    color: #FFFFFF;
+    color:var(--color);
 }
  
+
 h2 {
     font-family: 'Ultra', serif;
     font-style: normal;
