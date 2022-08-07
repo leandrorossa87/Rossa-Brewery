@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
 * {
     margin: 0px;
 }
@@ -35,32 +35,57 @@ header {
 }
 
 h6 {
-    font-family: 'Ultra', serif;
-    font-style: normal;
+    font-family: 'Actor', sans-serif;
     font-weight: 400;
-    font-size: 17px;
-    line-height: 22px;
-    color: #a2c4e0;
-    margin-top: 15px;
-    margin-bottom: 4px;
-    margin-left: 45px;
+    font-size: 60%;
+    color: #C3C8DE;
+    margin-top: 1%;
+    margin-bottom: 12%;
+    margin-left: 5%;
+    text-align: center;
  }
 
  .producto{
     display: flex;
     flex-direction: row;
     justify-content: center;
+
 }
 
 .fondop{
     position: relative;
+    margin-bottom: 5%;
+    width: 86vw;
+    height: 76vw;
+    border-radius: 10px;
 }
 
 .imgp{
     position: absolute;
+    width: 79vw;
+    height: 72vw;
+    margin-top: 2%;
+    border-radius: 10px;
 }
 
- .buttonEnd {
+h1{
+    font-family: 'Actor';
+    font-size: 4.5vw;
+    text-align: center;
+    color: #0A131E;
+}
+
+p{
+    font-family: 'Actor';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #0A131E;
+    margin-top: 2%;
+}
+
+.buttonEnd {
     width: 30px;
     height: 30px;
     background-color: #a2c4e0;
@@ -75,7 +100,7 @@ h6 {
     margin-top: 5px;
 }
 
-footer {
+.footer {
     display: flex;
     flex-direction: column;
     background-color: #193E76;
