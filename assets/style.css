@@ -61,11 +61,14 @@ align-items: center;
 
 :root{
     --color: #fbfef5;
+    --colorAzulOscuro: #0a131e;
+    --border-radius: 10px;
+
 }
 
 .ec img {
     position: relative;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     width: 70%;
 }
 
