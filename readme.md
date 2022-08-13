@@ -30,4 +30,4 @@ La paleta de colores a utilizar para el armado de la pagina:
 
 **__Logo__**
 Para el logo se utlizara la siguiente imagen
-![este es el logo](./assets/img/brewery.png)
+![este es el logo](./assets/img/Latam%20Logo%20de%20Cerveza%20Artesanal%20Negro%20Naranja%20(1).png)
