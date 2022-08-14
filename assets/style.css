@@ -196,9 +196,15 @@ button{
 
 }
 
-.imgProduct{
+.p1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+.fondoproduct{
+    width: 15vw;
+    height: 15vw;
+    background-color: #a2c4e0;
 }
 
 .imgf{
@@ -206,24 +212,27 @@ button{
 }
 
 .imgp {
+    width: 14%;
+    height: auto;
     position: absolute;
-    margin-top: 3px;
-    margin-left: 3px;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    
 }
 
 .buttonEnd {
-    width: 30px;
-    height: 30px;
+    width: 34%;
     background-color: #a2c4e0;
     border-radius: 5px;
     border-color: #a2c4e0;
     outline: none;
-    margin-left: 10px;
-    margin-top: 5px;
+    margin-left: 10%;
+    margin-top: 5%;
 }
 
 .imgButton{
-    margin-top: 5px;
+    width: 60%;
+    margin-top: 17%;
 }
 
 .footer {
