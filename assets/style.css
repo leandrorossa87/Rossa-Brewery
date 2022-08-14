@@ -1,11 +1,17 @@
 
-
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 
 * {
     margin: 0px;
 }
 
+:root{
+    --color: #fbfef5;
+    --colorAzulOscuro: #0a131e;
+    --colorazul: #193E76;
+    --colorCeleste: #a2c4e0;
+    --border-radius: 10px;
+}
 header {
 
     display: flex;
@@ -17,7 +23,7 @@ header {
 
 .iconsHeader {
 
-    background-color: #193E76;
+    background-color: var(--colorazul);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -35,8 +41,6 @@ header {
 .home {
     margin-left: 29px;
 }
-
-
 
 .secciones {
     display: flex;
@@ -56,13 +60,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 
-
-}
-
-:root{
-    --color: #fbfef5;
-    --colorAzulOscuro: #0a131e;
-    --border-radius: 10px;
 
 }
 
@@ -108,9 +105,9 @@ align-items: center;
 }
 
 .cf {
-display: flex;
-flex-direction: column;
-align-items: center;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cf img {
@@ -161,27 +158,23 @@ align-items: center;
 
 h2 {
     font-family: 'Ultra', serif;
-    font-style: normal;
     font-weight: 400;
-    font-size: 17px;
-    line-height: 22px;
-    color: #0a131e;
+    font-size: larger;
+    line-height: 1vw;
+    color: var(--colorAzulOscuro);
     margin-top: 15px;
-    margin-bottom: 4px;
-    margin-left: 45px;
+    margin-bottom: 10px;
+    margin-left: 12vw;
  }
 
- hr {
-   
-    border-color: #0a131e;
-    
+ .barraproduct{
+    width: 267px;
+    border-color: var(--colorAzulOscuro);
+    margin-left: 12%;
+    margin-bottom: 4%;
  }
 
- .lineaproductos{
-    margin-bottom: 15px;
-    margin-left: 45px;
- }
- .carrusel {
+.carrusel {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -204,7 +197,7 @@ button{
 .fondoproduct{
     width: 15vw;
     height: 15vw;
-    background-color: #a2c4e0;
+    background-color: var(--colorCeleste);
 }
 
 .imgf{
@@ -222,9 +215,9 @@ button{
 
 .buttonEnd {
     width: 34%;
-    background-color: #a2c4e0;
+    background-color: var(--colorCeleste);
     border-radius: 5px;
-    border-color: #a2c4e0;
+    border-color: var(--colorCeleste);
     outline: none;
     margin-left: 10%;
     margin-top: 5%;
@@ -238,7 +231,7 @@ button{
 .footer {
     display: flex;
     flex-direction: column;
-    background-color: #193E76;
+    background-color: var(--colorazul);
     justify-content: center;
     align-items: center;
     margin-top: 50px;
@@ -251,7 +244,7 @@ h3{
     font-weight: 400;
     font-size: 12px;
     line-height: 22px;
-    color: #0a131e;
+    color: var(--colorAzulOscuro);
 }
 
 .mailsend{
@@ -260,11 +253,9 @@ h3{
     align-items: center;
 }
 
-.barrafooter {
-    
-    background-color: #0a131e;
+.barrafooter{
+    border-color:var(--colorAzulOscuro);
 }
-
  .whatsapp {
     display: flex;
     flex-direction: row;
@@ -278,7 +269,7 @@ h3{
     font-weight: 400;
     font-size: 8px;
     line-height: 22px;
-    color: #0a131e;
+    color: var(--colorAzulOscuro);
  }
 
  iframe{
