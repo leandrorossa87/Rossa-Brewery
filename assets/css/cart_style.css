@@ -5,7 +5,7 @@
 }
 
 :root{
-    --color: #a2c4e0;
+    --colorCeleste: #a2c4e0;
 }
 header {
 
@@ -40,98 +40,42 @@ header {
     margin-top: 1vw;
 }
 
-body{
-    background-image: url(./img/rectangulocarrito.png);
+li{
+    list-style: none;
 }
 
-h6 {
-    font-family: 'Actor', sans-serif;
-    font-weight: 400;
-    font-size: 60%;
-    color: #C3C8DE;
-    margin-top: 1%;
-    margin-bottom: 12%;
-    margin-left: 5%;
-    text-align: center;
- }
-
- .producto{
+.detailproduct{
     display: flex;
     flex-direction: row;
     justify-content: center;
 
 }
 
-.fondop{
+.fondoproduct{
+    width: 15vw;
+    height: 15vw;
+    background-color: var(--colorCeleste);
+    text-align: center;
+}
+
+.imgf{
     position: relative;
-    margin-bottom: 5%;
-    width: 86vw;
-    height: 76vw;
-    border-radius: 10px;
 }
 
-.imgp{
+.imgp {
+    width: 14%;
+    height: auto;
     position: absolute;
-    width: 79vw;
-    height: 72vw;
-    margin-top: 2%;
-    border-radius: 10px;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    
 }
 
-h1{
-    font-family: 'Actor';
-    font-size: 4.5vw;
+.imgProduct{
     text-align: center;
-    color: #0A131E;
 }
 
-p{
-    font-family: 'Actor';
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
-    text-align: center;
-    color: #0A131E;
-    margin-top: 2%;
-}
-.infP{
-    width: 22vw;
-    height: 6vw;
-    background-color:var(--color);
-    border-radius: 5px;
-    border-color: var(--color);
-    margin-left: 18vw;
-    margin-top: 4vw;
-    justify-content: center;
-    font-family: 'Actor';
-    font-weight: bolder;
-    color: #0a131e;
-}
 
-.ingCarrito{
-    width: 9vw;
-    height: 6vw;
-    background-color: var(--color);
-    border-radius: 5px;
-    border-color: var(--color);
-    margin-left: 46vw;
-    margin-top: 4vw;
-}
-
-.buttonEnd {
-    width: 30px;
-    height: 30px;
-    background-color: var(--color);
-    border-radius: 5px;
-    border-color: var(--color);
-    outline: none;
-    margin-left: 10px;
-    margin-top: 5px;
-}
-
-.imgButton{
-    margin-top: 5px;
-}
 
 .footer {
     display: flex;
