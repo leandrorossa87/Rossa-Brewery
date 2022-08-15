@@ -5,7 +5,11 @@
 }
 
 :root{
+    --color: #fbfef5;
+    --colorAzulOscuro: #0a131e;
+    --colorazul: #193E76;
     --colorCeleste: #a2c4e0;
+    --border-radius: 10px;
 }
 header {
 
@@ -18,7 +22,7 @@ header {
 
 .iconsHeader {
 
-    background-color: #193E76;
+    background-color: var(--colorazul);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -38,6 +42,13 @@ header {
     height: 5vw;
     margin-left: 21px;
     margin-top: 1vw;
+}
+
+main{
+    border-style: groove;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 10px;
 }
 
 h1{
@@ -80,6 +91,7 @@ h4{
     max-width: 28vw;
     height: auto;
     background-color: var(--colorCeleste);
+    border-radius: 5px;
 }
 
 .imgp {
@@ -147,7 +159,8 @@ h6{
     width: 14%;
     height: 5vw;
     max-width: 150px;
-    background-color: #a2c4e0;
+    background-color: var(--colorCeleste);
+    border-radius: 5px;
 }
 
 .total{
@@ -169,13 +182,39 @@ h6{
     width: 54%;
     height: 5vw;
     max-width: 150px;
-    background-color: #a2c4e0;
+    background-color: var(--colorCeleste);
+    border-radius: 5px;
+}
+
+.totalCart{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 2%;
+}
+
+.totalCart h1{
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.totalCart input{
+    background-color: var(--colorCeleste);
+    height: 9vw;
+    border-radius: 10px;
+    margin-bottom: 3%;
 }
 
 .footer {
     display: flex;
     flex-direction: column;
-    background-color: #193E76;
+    background-color: var(--colorazul);
     justify-content: center;
     align-items: center;
     margin-top: 50px;
@@ -188,7 +227,7 @@ h3{
     font-weight: 400;
     font-size: 12px;
     line-height: 22px;
-    color: #0a131e;
+    color: var(--colorAzulOscuro);
 }
 
 .mailsend{
@@ -198,20 +237,15 @@ h3{
 }
 
 .arrowend {
-    background-color: #193E76;
-    border-color: #193E76;
-    border-style: #193E76;
-    outline-style: #193E76;
+    background-color: var(--colorazul);
+    border-color: var(--colorazul);
+    border-style: var(--colorazul);
+    outline-style: var(--colorazul);
     padding: 0;
   
 }
 
-.barrafooter {
-    
-    background-color: #0a131e;
-}
-
- .whatsapp {
+.whatsapp {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -224,7 +258,7 @@ h3{
     font-weight: 400;
     font-size: 8px;
     line-height: 22px;
-    color: #0a131e;
+    color: var(--colorAzulOscuro);
  }
 
  iframe{

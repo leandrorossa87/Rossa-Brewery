@@ -13,7 +13,7 @@
         
         <section class="iconsHeader">
         <img class="styleButton" src="../assets/img/imgIcons/icons8-menú-24.png" alt="Menu de Secciones">
-        <img class="styleButtoncart" src="../assets/img/imgIcons/carrito-de-compras.png" alt="Pagina Principal">
+        <img class="styleButtoncart" src="../assets/img/imgIcons/icons8-carrito-de-la-compra-cargado-60.png" alt="Pagina Principal">
         <div>
             <img class="styleButton" src="../assets/img/imgIcons/icons8-entrar-18.png" alt="Ingresar">
             <img class="styleButton" src="../assets/img/imgIcons/new-user.png" alt="Registrar">
@@ -21,12 +21,12 @@
         </section>
         <img src="../assets/img/img header/headermobile.png" alt="Brewery Design" class="imgHeader">
     </header>
-
-    <main>
-       <h1>Tu Compra</h1>
-       <li>
-           
-        <section class="detailproduct">
+    <h1>Tu Compra</h1>
+    <main >
+       
+            <div class="fondoMain"></div>
+                <li>
+                    <section class="detailproduct">
             <article class="imgProduct">
                 <h4>Productos</h4>
                 <figure class="fondoproduct"><img class="imgp" src="../assets/img/imgProducts/Canilla Doble Accion.jpg" alt="Conector G"></figure>
@@ -62,7 +62,7 @@
             </article>
   
             <article class="price">
-                <h6 class="priceProduct">Precio $6800</h6>
+                <h6 class="priceProduct">Precio $6300</h6>
                 <h3>TOTAL</h3>
                 <img src="../assets/img/imgIcons/icons8-basura-45.png" alt="Eliminar Producto" class="trash">     
             </article>
@@ -77,13 +77,18 @@
 
                 <div class="total">
                     <h1>$</h1>
-                    <input type="number"
+                    <input type="text"
                     class="totalPrice">
                 </div>
 
             </article> 
         </section>
+        <section class="totalCart">
+            <h1>TOTAL $</h1>
+            <input type="text">
+        </section>
         </li>
+    </div>
     </main>
     
     <footer>
@@ -96,10 +101,10 @@
                 type="email"
                 name="mail"
                 id="mail">
-                <button><img src="../assets/img/imgIcons/right-arrow-black-square-button.png" alt="Enviar" height="24">
+                <button class="arrowend"><img src="../assets/img/imgIcons/right-arrow-black-square-button.png" alt="Enviar" height="24">
                 </button>
             </article>
-            <hr class="barrafooter"width="250px">
+            <hr width="250px" color="#0a131e">
         
             <h3>SEGUINO EN</h3>
             <article>
@@ -107,14 +112,14 @@
                 <img src="../assets/img/img footer/instagram.png" alt="Instagram" width="24" height="24">
             </article>
         
-            <hr class="barrafooter"width="250px">
+            <hr width="250px" color="#0a131e">
             <h3>COMUNICATE</h3>
             <article class="whatsapp">
                 <img src="../assets/img/img footer/whatsapp.png" alt="WhatsApp" width="24" height="24">
             <h5>+5493513474681</h5>
             </article>
         
-            <hr class="barrafooter"width="250px">
+            <hr width="250px" color="#0a131e">
             <h3>VISITANOS EN</h3>
             <h5>AV EDUARDO BULNES 2584, CORDOBA CAPITAL</h5>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.7202629972976!2d-64.15539588603889!3d-31.394275981411457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432981ca5a7aefb%3A0xf8695f7a80dab850!2sBlvd.%20Bulnes%202584%2C%20X5013%20APP%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1659310940856!5m2!1ses!2sar" width="300" height="50" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
