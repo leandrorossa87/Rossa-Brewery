@@ -40,6 +40,16 @@ header {
     margin-top: 1vw;
 }
 
+h1{
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+
 li{
     list-style: none;
 }
@@ -47,35 +57,120 @@ li{
 .detailproduct{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-
-}
-
-.fondoproduct{
-    width: 15vw;
-    height: 15vw;
-    background-color: var(--colorCeleste);
-    text-align: center;
-}
-
-.imgf{
-    position: relative;
-}
-
-.imgp {
-    width: 14%;
-    height: auto;
-    position: absolute;
-    margin-left: 0.5%;
-    margin-top: 0.5%;
-    
+    align-items: flex-start;
+    margin: 4vw;
 }
 
 .imgProduct{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3%;
+}
+
+h4{
+    font-family: 'Actor';
+    font-style: normal;
+    font-size: 5vw;
+    line-height: 20px;
+    margin-bottom: 10%;
+}
+
+.fondoproduct{
+    max-width: 28vw;
+    height: auto;
+    background-color: var(--colorCeleste);
+}
+
+.imgp {
+    width: 92%;
+    height: auto;
+    position: REVERT;
+    margin-left: 4%;
+    margin-top: 3.5%;
+    
+}
+
+h6{
+    font-family: 'Actor';
+    font-style: normal;
+    font-size: 54%;
+    line-height: 12px;
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    width: 34%;
+    align-items: flex-end;
+}
+
+.priceProduct{
+    font-family: 'Actor';
+    font-style: normal;
+    font-size: 107%;
+    max-width: 138px;
+    line-height: 287%;
+    margin-bottom: 23%;
+   
+}
+
+.price h3{
+    font-family: 'Actor';
+    font-style: normal;
+    font-size: 5vw;
+    align-items: center;
+    
+    
 }
 
 
+
+.trash{
+    width: 32%;
+    max-width: 101px;
+    height: 31%;
+    margin-right: 31%;
+    margin-top: 10%;
+}
+
+.controlCart{
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    margin-top: 6vw;
+    align-items: center;
+}
+
+.units{
+    width: 14%;
+    height: 5vw;
+    max-width: 150px;
+    background-color: #a2c4e0;
+}
+
+.total{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3vw;
+}
+
+.total h1{
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.totalPrice{
+    width: 54%;
+    height: 5vw;
+    max-width: 150px;
+    background-color: #a2c4e0;
+}
 
 .footer {
     display: flex;
