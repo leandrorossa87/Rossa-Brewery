@@ -5,8 +5,12 @@
 }
 
 :root{
-    --color: #a2c4e0;
+   
+    --colorAzulOscuro: #0a131e;
+    --colorazul: #193E76;
+    --colorCeleste: #a2c4e0;
 }
+
 header {
 
     display: flex;
@@ -18,7 +22,7 @@ header {
 
 .iconsHeader {
 
-    background-color: #193E76;
+    background-color: var(--colorazul);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -36,7 +40,7 @@ header {
 .loginStyle {
     display: flex;
     flex-direction: column;
-    background-color: var(--color);
+    background-color: var(--colorCeleste);
     width: 47%;
     margin-left: 29%;
     margin-top: 5%;
@@ -54,7 +58,7 @@ h1{
     font-family: 'Actor';
     font-size: 4.5vw;
     text-align: center;
-    color: #0A131E;
+    color: var(--colorAzulOscuro);
     margin-top: 15px;
     margin-bottom: 10px;
 }
@@ -104,7 +108,7 @@ label{
 .h3main {
     font-family: 'Actor', sans-serif;
     font-size: 3.5vw;
-    color: #0A131E;
+    color: var(--colorAzulOscuro);
     text-align: center;
     margin-bottom: 10px;
  }
@@ -123,7 +127,7 @@ label{
 .footer {
     display: flex;
     flex-direction: column;
-    background-color: #193E76;
+    background-color: var(--colorazul) ;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
@@ -136,7 +140,7 @@ h3{
     font-weight: 400;
     font-size: 12px;
     line-height: 22px;
-    color: #0a131e;
+    color: var(--colorAzulOscuro);
     
 }
 
@@ -147,17 +151,17 @@ h3{
 }
 
 .arrowend {
-    background-color: #193E76;
-    border-color: #193E76;
-    border-style: #193E76;
-    outline-style: #193E76;
+    background-color: var(--colorazul);
+    border-color: var(--colorazul);
+    border-style: var(--colorazul);
+    outline-style: var(--colorazul);
     padding: 0;
   
 }
 
 .barrafooter {
     
-    background-color: #0a131e;
+    background-color: var(--colorAzulOscuro);
 }
 
  .whatsapp {
@@ -173,7 +177,7 @@ h3{
     font-weight: 400;
     font-size: 8px;
     line-height: 22px;
-    color: #0a131e;
+    color: var(--colorAzulOscuro);
  }
 
  iframe{
