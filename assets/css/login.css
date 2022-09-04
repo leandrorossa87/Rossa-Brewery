@@ -36,7 +36,12 @@ header {
 .loginStyle {
     display: flex;
     flex-direction: column;
-}
+    background-color: var(--color);
+    width: 47%;
+    margin-left: 29%;
+    margin-top: 5%;
+    border-radius: 25px;
+    }
 
 .formLogin{
     display: flex;
@@ -44,29 +49,75 @@ header {
     align-items: center;
 }
 
-.remember{
-    display: flex;
-    flex-direction: row;
-    align-items: center; 
-}
 
 h1{
     font-family: 'Actor';
     font-size: 4.5vw;
     text-align: center;
     color: #0A131E;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
+input[type="email" i] {
+    width: 76%;
+    height: 4vw;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-style: none;
+}
 
-h3 {
-    font-family: 'Actor', sans-serif;
-    font-weight: 400;
-    font-size: 60%;
-    color: #C3C8DE;
+input[type="password" i] {
+    width: 76%;
+    height: 4vw;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-style: none;
+}
+
+::placeholder{
     text-align: center;
+    font-family: 'Actor';
+font-style: normal;
+font-weight: 400;
+font-size: 3vw;
+line-height: 22px;
+}
+
+.remember{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+label{
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 94%;
+    line-height: 18px;
+}
+.h3main {
+    font-family: 'Actor', sans-serif;
+    font-size: 3.5vw;
+    color: #0A131E;
+    text-align: center;
+    margin-bottom: 10px;
  }
 
-
+.ingresar{
+    border-style: none;
+    border-radius: 5px;
+    width: 14vw;
+    font-size: 3vw;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+}
 
 
 .footer {
@@ -86,6 +137,7 @@ h3{
     font-size: 12px;
     line-height: 22px;
     color: #0a131e;
+    
 }
 
 .mailsend{
