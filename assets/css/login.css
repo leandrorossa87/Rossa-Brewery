@@ -37,14 +37,22 @@ header {
     margin: 5px;
 }
 
+.styleButtonLogin {
+    margin: 5px;
+    margin-left: 6vw;
+    width: 5vw;
+}
+
+
 .loginStyle {
     display: flex;
     flex-direction: column;
     background-color: var(--colorCeleste);
-    width: 47%;
-    margin-left: 29%;
+    width: 59%;
+    margin-left: 20%;
     margin-top: 5%;
     border-radius: 25px;
+
     }
 
 .formLogin{
@@ -144,24 +152,8 @@ h3{
     
 }
 
-.mailsend{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.arrowend {
-    background-color: var(--colorazul);
-    border-color: var(--colorazul);
-    border-style: var(--colorazul);
-    outline-style: var(--colorazul);
-    padding: 0;
-  
-}
-
-.barrafooter {
-    
-    background-color: var(--colorAzulOscuro);
+hr{
+    border-color: var(--colorAzulOscuro);
 }
 
  .whatsapp {

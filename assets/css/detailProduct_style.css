@@ -5,7 +5,9 @@
 }
 
 :root{
-    --color: #a2c4e0;
+    --colorCeleste: #a2c4e0;
+    --colorAzulOscuro: #0a131e;
+    --colorazul: #193E76;
 }
 header {
 
@@ -18,7 +20,7 @@ header {
 
 .iconsHeader {
 
-    background-color: #193E76;
+    background-color: var(--colorazul);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -78,7 +80,7 @@ h1{
     font-family: 'Actor';
     font-size: 4.5vw;
     text-align: center;
-    color: #0A131E;
+    color: var(--colorAzulOscuro);
 }
 
 p{
@@ -87,29 +89,29 @@ p{
     font-size: 15px;
     line-height: 18px;
     text-align: center;
-    color: #0A131E;
+    color: var(--colorAzulOscuro);
     margin-top: 2%;
 }
 .infP{
     width: 22vw;
     height: 6vw;
-    background-color:var(--color);
+    background-color:var(--colorCeleste);
     border-radius: 5px;
-    border-color: var(--color);
+    border-color: var(--colorCeleste);
     margin-left: 18vw;
     margin-top: 4vw;
     justify-content: center;
     font-family: 'Actor';
     font-weight: bolder;
-    color: #0a131e;
+    color: var(--colorAzulOscuro);
 }
 
 .ingCarrito{
     width: 9vw;
     height: 6vw;
-    background-color: var(--color);
+    background-color: var(--colorCeleste);
     border-radius: 5px;
-    border-color: var(--color);
+    border-color: var(--colorCeleste);
     margin-left: 46vw;
     margin-top: 4vw;
 }
@@ -117,9 +119,9 @@ p{
 .buttonEnd {
     width: 30px;
     height: 30px;
-    background-color: var(--color);
+    background-color: var(--colorCeleste);
     border-radius: 5px;
-    border-color: var(--color);
+    border-color: var(--colorCeleste);
     outline: none;
     margin-left: 10px;
     margin-top: 5px;
@@ -132,7 +134,7 @@ p{
 .footer {
     display: flex;
     flex-direction: column;
-    background-color: #193E76;
+    background-color: var(--colorazul);
     justify-content: center;
     align-items: center;
     margin-top: 50px;
@@ -145,7 +147,7 @@ h3{
     font-weight: 400;
     font-size: 12px;
     line-height: 22px;
-    color: #0a131e;
+    color: var(--colorAzulOscuro);
 }
 
 .mailsend{
@@ -155,17 +157,22 @@ h3{
 }
 
 .arrowend {
-    background-color: #193E76;
-    border-color: #193E76;
-    border-style: #193E76;
-    outline-style: #193E76;
+    background-color: var(--colorazul);
+    border-color: var(--colorazul);
+    border-style: var(--colorazul);
+    outline-style: var(--colorazul);
     padding: 0;
   
 }
 
-.barrafooter {
-    
-    background-color: #0a131e;
+button{
+    border-style: none;
+    background-color: var(--colorAzul);
+}
+
+hr{
+    width: 250px;
+    border-color: black !important; 
 }
 
  .whatsapp {
@@ -181,7 +188,7 @@ h3{
     font-weight: 400;
     font-size: 8px;
     line-height: 22px;
-    color: #0a131e;
+    color: var(--colorAzulOscuro);
  }
 
  iframe{
