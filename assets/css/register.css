@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+* {
+    margin: 0px;
+}
+
+:root{
+   
+    --colorAzulOscuro: #0a131e;
+    --colorazul: #193E76;
+    --colorCeleste: #a2c4e0;
+}
+
+header {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+    width: 100%;
+   }
+
+.iconsHeader {
+
+    background-color: var(--colorazul);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.imgHeader{
+    width: 100%;
+}
+
+.styleButton {
+    margin: 5px;
+}
+
+.styleButtonLogin {
+    margin: 5px;
+    margin-left: 6vw;
+    width: 5vw;
+}
+
+
+.loginStyle {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--colorCeleste);
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 5%;
+    border-radius: 25px;
+
+    }
+
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1{
+    font-family: 'Actor';
+    font-size: 4.5vw;
+    text-align: center;
+    color: var(--colorAzulOscuro);
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+input[type="email" i] {
+    width: 76%;
+    height: 4vw;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-style: none;
+}
+
+input[type="password" i] {
+    width: 76%;
+    height: 4vw;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-style: none;
+}
+
+input[type="text" i] {
+    width: 76%;
+    height: 4vw;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-style: none;
+}
+
+input[type="date" i] {
+    width: 76%;
+    height: 4vw;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-style: none;
+}
+
+::placeholder{
+    text-align: center;
+    font-family: 'Actor';
+font-style: normal;
+font-weight: 400;
+font-size: 3vw;
+line-height: 22px;
+}
+
+.condition{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+label{
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 94%;
+    line-height: 18px;
+}
+.h3main {
+    font-family: 'Actor', sans-serif;
+    font-size: 3.5vw;
+    color: var(--colorAzulOscuro);
+    text-align: center;
+    margin-bottom: 10px;
+ }
+
+ .checkbox{
+    margin-left: 14px;
+ }
+
+.registrarme{
+    border-style: none;
+    border-radius: 5px;
+    width: 17vw;
+    font-size: 3vw;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 3vw;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--colorazul) ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h3{
+    margin-top: 10px;
+    font-family: 'Ultra', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: var(--colorAzulOscuro);
+    
+}
+
+hr{
+    border-color: var(--colorAzulOscuro);
+}
+
+ .whatsapp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+ }
+
+ h5{
+    font-family: 'Ultra', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 22px;
+    color: var(--colorAzulOscuro);
+ }
+
+ iframe{
+    margin-bottom: 15px;
+    border-radius: 10px;
+ }
+
+ .endPage{
+    display: flex;
+    flex-direction: row;
+ }
+ 
+ .logoend{
+    margin-left: 35%;
+    width: 30%;
+    height: auto;
+ }
+
+.copy{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    align-items: center;
+    margin-top: 17%;
+
+}

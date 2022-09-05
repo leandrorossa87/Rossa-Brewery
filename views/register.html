@@ -8,8 +8,18 @@
     <link rel="stylesheet" href="../assets/css/register.css">
 </head>
 <body>
-    <header>
-        
+    <header>  
+        <section class="iconsHeader">
+            <img class="styleButton" src="../assets/img/imgIcons/icons8-menú-24.png" alt="Menu de Secciones">
+            <img class="styleButtonLogin" src="../assets/img/imgIcons/icons8-entrar-18.png" alt="login">
+            <div>
+                <a href="./index.html"><img calss="stylebutton" src="../assets/img/imgIcons/icons8-casa-25.png" alt="HOME" href="./index.html"></a>
+                <a href="./register.html"><img class="styleButton" src="../assets/img/imgIcons/new-user.png" alt="Registrar"></a>
+            </div>
+        </section>
+        <img src="../assets/img/img header/headermobile.png" alt="Brewery Design" class="imgHeader"></header>
+    
+    <main>
         <section class="loginStyle"><h1> INGRESAR </h1>
             <form action="./login.html" class="formLogin">
         
@@ -37,7 +47,7 @@
                 id="email"
                 >
 
-                <label for="date"></label>
+                <label for="date" ></label>
                 <input 
                 type="date"
                 placeholder="Fecha de Nacimiento"
@@ -53,16 +63,17 @@
                 id="password"
                  >
             
-                 <article class="remember"><label for="remember">Acepto Terminos y condiciones</label>
+                 <article class="condition"><label for="condition">He Leido los terminos y condiciones</label>
                  <input 
+                 class="checkbox"
                  type="checkbox"
-                 name="remember"
-                 id="remember"
+                 name="condition"
+                 id="condition"
                  >
                 </article>
                     
             
-                 <button class="ingresar">Registrarme</button>
+                 <button class="registrarme">Registrarme</button>
     
                  
                 </form>
